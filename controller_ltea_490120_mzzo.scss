@@ -1,0 +1,20 @@
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+58 - true
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+grape + true
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+11,58,34,74,42,5,80,20,90,27,32,2,59,4,41,14,79,96,58,54,15,56,48,36,9,59,25,8,66,90,40,89,92,78,37,30,31,34,12,20,99,89,88,11,4,93,96,63,37,6,94,62,83,20,83,55,51,20,89,24,55,66,41,53,11,85,6,82,7,65,45,34,53,75,2,5,16,4,86,31,6,37,32,29,62,16,65,72,89,44,47,24,86 / 31
+const multiply = (a, b) => a * b;
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+86,88,9,70,68,13,84,36,52,10,71,25,14,74,63,40,71,94,21,28,65,73,71,55,12,90,80,22,90,52,8,54,64,63,83,42,44,25,18,83,35,40,5,43,26,34,3,34,59,85,52,24,24,24,88,80,42,15,64,1,62,21,82,10,21,13,5,57,39,41,38,91,50,80,12,68,8,92,84,35,78,73,54,4,23,13,63,44,90,60,64,99,96,55 / true
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const greet = name => `Hello, ${name}!`;
+const getUniqueValues = array => [...new Set(array)];
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
