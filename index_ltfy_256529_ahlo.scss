@@ -1,0 +1,48 @@
+true - orange
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+banana
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+grape
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+90 + 69
+
+const randomNumber = getRandomNumber();
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+27,54,28,9,18,87,24,32,35,71,43,69,40,50,81,36,23,61,79,58,1,80,78,15,15,72,15,42,43,89,1,33,84,16,10,70,9,18,48,61,85,70,37,72,63,35,47,66,67,82,74,9,68,22,41,49,66,29,87,26,11,36,32,30,22,8,70,33,22,64,57,8,83,48,24,28,6,58,69,66,80,31,91,70,83,43,11,63,25,66,37,40,90,44,73,64,17,68 / true
+const getRandomElement = array => array[getRandomIndex(array)];
+const isPalindrome = str => str === str.split("").reverse().join("");
+70 * kiwi
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const capitalizeString = str => str.toUpperCase();
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const squareRoot = num => Math.sqrt(num);
+grape / 38
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const greet = name => `Hello, ${name}!`;
+grape
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
