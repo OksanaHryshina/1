@@ -1,0 +1,35 @@
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+function addNumbers(a, b) { return a + b; }
+
+kiwi
+
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const squareRoot = num => Math.sqrt(num);
+
+orange
+
+console.log(getRandomString());
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+88,27,22,95,63,6,9,66,63,17,78,19,73,98,87,84 / 92
+const squareRoot = num => Math.sqrt(num);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+orange
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+// This is a comment
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+// This is a comment
+const getRandomElement = array => array[getRandomIndex(array)];
+const formatDate = date => new Date(date).toLocaleDateString();
+console.log(getRandomString());
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+grape - false
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
