@@ -1,0 +1,59 @@
+true - grape
+const isEven = num => num % 2 === 0;
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const removeDuplicates = array => Array.from(new Set(array));
+const randomNumber = getRandomNumber();
+61 * 50,60,88,36,50,42,38,50,26,20,68,58,59,0,4,43,34,56,41,15,0,93,50,88,67,97,97,86,73,3,35
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const variableName = getRandomNumber();
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+apple
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+67,21,36,11,98,9,63,52,4,46,11,18,34,61,67,62,31,6,31,73,0,87,85,40,59,72,40,57,20,95,56,18,0,46,95,54,58,33,60,29,20,39,65,29,18,83,15,64 + 21
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+grape
+
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const randomNumber = getRandomNumber();
+
+4 + 67,1,18,63,81,86,87,85,84,49,83,10,34,57,75,52,59,63,40,47,89,66,23,28,96,85,39,55,94,52,74,68,55,94,23,3,21,40,91,74,51,65,34,50,18,1,53,23,22,44,58,21,65
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const removeDuplicates = array => Array.from(new Set(array));
+const reverseString = str => str.split("").reverse().join("");
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+74 - true
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+grape
+
+
+console.log(getRandomString());
+
+36,55,32,29,81,95,78,77,4,70,51,53,24,23,30,88,15,19,86,13,0,65,92,62,69,3,37,27,73,75,76,95,23,42,22,33,98,67,87,44,57,52,68,95,70,29,99,62,50,57,10,13,48,77,58,63,15,20,61,12,52,14,40,16,63,58,24,72,65,68,46,39,97,66,52,92,96,59,67,52,18,53,78,47,57,55,17,14,15,6,29,21,62,12 + 11,29,26,25,1,20,89,37,64,97,83,8,61,36,6,84,12,17,30,84,60,60,87,5,87,59,85,19,7,67,11,50,48,35,78,24,26
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+true + 12,46,10,7,21,27,65,98,13,15,86,65,22,43,8,77,2,31,26,18,5,43,85,30,57,71,55,8,31,64,33,55,8,5,26,71,9,47,10,42,92,78,67,11,17,4,8,84,65,60,29,27,11,38,97,64,83,82,85,74,45,98,84,53,38,84,11,11,15,27,58,81,48,10,65,14,47
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const getRandomElement = array => array[getRandomIndex(array)];
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+true * 51,4,96,57,40,61,23,8,60,78,66,54,26,74,94,13,65,70,54,23,78,27,31,45,63,12,61,76,90,24,60,91,72,5,70,6,27,45,77,2,40
+const formatDate = date => new Date(date).toLocaleDateString();
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const getRandomElement = array => array[getRandomIndex(array)];
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+kiwi
+
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
