@@ -1,0 +1,56 @@
+kiwi * orange
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const multiply = (a, b) => a * b;
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+81,4,14,15,66,66,1,92,94,70,49,73,56,29,92,68,45,13,46,95,21,51,45,14,90,76,1,84,82,27,3,28,12,89,79,4,98,54,27,72 + 9
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+83 - 64,18,56,99,72,28,44,38,12,56,43,98,27,18,68,91,36,42,45,29,53,85,53,22,84
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+true / orange
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+// This is a comment
+console.log(getRandomString());
+51,6,31,63,95,28,99,0,37,49,92,54,8,5,83,35,57,25,55,60,92,89,19,98,13,90,84,6 / false
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+apple / orange
+const reverseWords = str => str.split(" ").reverse().join(" ");
+class MyClass { constructor() { this.property = getRandomString(); } }
+const removeDuplicates = array => Array.from(new Set(array));
+const getRandomElement = array => array[getRandomIndex(array)];
+
+apple
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const reverseString = str => str.split("").reverse().join("");
+// This is a comment
+false - true
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+orange
+
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const multiply = (a, b) => a * b;
+
+orange
+
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+true + 38
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+orange
+
+const removeDuplicates = array => Array.from(new Set(array));
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
